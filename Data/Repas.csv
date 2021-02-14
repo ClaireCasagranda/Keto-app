@@ -1,0 +1,88 @@
+Nom;Saison;Repas;Identifiant;Auteur
+Carpaccio, salade et mozzarella ;ALL;Midi;1;Admin
+Tacos de fromage, viande hachee et sauce tomate;ALL;Soir;2;Admin
+Poulet, bleu, endive et olive;ALL;Midi;3;Admin
+Chou frisé, thon, mayonnaise, endive et mozzarella;ALL;Midi;4;Admin
+Carotte rapée, thon, mayonnaise, endive, mozzarella;ALL;Midi;5;Admin
+Gratin de brocolis, courge et rôti de bœuf;ALL;Soir;6;Admin
+Camembert rôti, charcuterie et concombre;ALL;Soir;7;Admin
+Frites de patates douces, steak haché au chèvre;ALL;Soir;8;Admin
+Pilons de poulet, chou fleur;ALL;Soir;9;Admin
+Pilons de poulet, patates douces;ALL;Soir;10;Admin
+Bologniaise de courgette;ALL;Soir;11;Admin
+Burger cétogène;ALL;Soir;12;Admin
+Brochette de poulet, poivron et oignon;ALL;Soir;13;Admin
+Bavette à l'échalotte, poireaux;ALL;Soir;14;Admin
+Cordon bleu, spaghetti de courgettes au pesto;ALL;Soir;15;Admin
+Croque monsieur cétogène;ALL;Soir;16;Admin
+Cabillaud croute de chorizo, poivron et oignon;ALL;Soir;17;Admin
+Crêpe au thon, tomate et salade;ALL;Midi;18;Admin
+Cheesecake de courgettes, saucisses;ALL;Soir;19;Admin
+Cake au bleu, salade;ALL;Midi;20;Admin
+Flan feta et jambon, salade;ALL;Midi;21;Admin
+Fondue de poireaux, viande rouge;ALL;Soir;22;Admin
+Hot dog, salade;ALL;Soir;23;Admin
+Galette ! Œuf, jambon et fromage;ALL;Midi;24;Admin
+Lomo, haricots verts, sauce roquefort;ALL;Soir;25;Admin
+Muffins au thon, salade, feta;ALL;Midi;26;Admin
+Œuf rôti au chorizo;ALL;Soir;27;Admin
+Pâtes cétogènes, poulet, pesto, parmesan;ALL;Soir;28;Admin
+Pizza tomate et gorgonzola;ALL;Soir;29;Admin
+Pizza chèvre, tomate et jambon;ALL;Soir;30;Admin
+Pain grillé à l'ail, charcuterie;ALL;Soir;31;Admin
+Pizza viande hachée, tomate, poivron, emmental;ALL;Soir;32;Admin
+Pain de viande, haricots verts;ALL;Soir;33;Admin
+Pizza poulet, asperge et mozzarella;ALL;Soir;34;Admin
+Pizza 4 fromages;ALL;Soir;35;Admin
+Poivrons farcis au chèvre et viande hachée;ALL;Soir;36;Admin
+Risotto de chou-fleur, lard et parmesan;ALL;Soir;37;Admin
+Endive, gorgonzola, pesto et noix;ALL;Midi;38;Admin
+Salade, saucisses, feta, œuf dur, concombre;ALL;Midi;39;Admin
+Concombre, tomates cerises, œufs durs, thon, endive et oignon;ALL;Midi;40;Admin
+Salade, noix, tomate, concombre, emmetal, bacon et œuf dur;ALL;Midi;41;Admin
+Sushi de chou fleur, saumon, crevette et avocat;ALL;Soir;42;Admin
+Salade, concombre, œuf dur, feta, jambon sec, tomates cerises;ALL;Midi;43;Admin
+Concombre, poulet, avocat, échalote, yaourt grecque, bacon;ALL;Midi;44;Admin
+Tarte au maroilles;ALL;Soir;45;Admin
+Salade, saumon, avocat, échalotte;ALL;Midi;46;Admin
+Chou frisé, jambon sec, parmesan olive;ALL;Midi;47;Admin
+Epinard frais en salade, crevette, concombre et tomates cerises;ALL;Midi;48;Admin
+Bœuf marinée, œuf dur, salade, tomates cerises;ALL;Midi;49;Admin
+Concombre, thon, avocat, citron;ALL;Midi;50;Admin
+Asperge, bacon, œufs durs;ALL;Midi;51;Admin
+Olives noires, feta, poulet, salade, tomate;ALL;Midi;52;Admin
+Tomate, mozzarella, jambon sec, olives vertes;ALL;Midi;53;Admin
+Salade, concombre, oignon, tomate et boulettes de viande;ALL;Midi;54;Admin
+Viande rouge, champignons à la crème;ALL;Soir;55;Admin
+Cote de porc, champignons à la crème;ALL;Soir;56;Admin
+Soupe;ALL;Soir;57;Admin
+Omelette au fromage;ALL;Midi;58;Admin
+Omlette jambon fromage;ALL;Midi;59;Admin
+Courgettes gratinées comme une pizza;ALL;Soir;60;Admin
+Barbecue (viande, poivron tomate et oignon à griller);ALL;Soir;61;Admin
+Tartare de viande, échalotte, salade;ALL;Midi;62;Admin
+Saucisses et chou fleur;ALL;Soir;63;Admin
+Asperges et pavé de saumon;ALL;Soir;64;Admin
+Asperges et colin ;ALL;Soir;65;Admin
+Poulet rôti, brocolis;ALL;Soir;66;Admin
+Hachis parmentier (chou-fleur);ALL;Soir;67;Admin
+Boulette de viande en sauce et chou-fleur;ALL;Soir;68;Admin
+Boulette de viande en sauce et haricots verts;ALL;Soir;69;Admin
+Boulette de viande en sauce et courgettes;ALL;Soir;70;Admin
+Escalope de poulet à la crème, oignon, parmesan , pesto et olives vertes;ALL;Soir;71;Admin
+Riz de chou-fleur, crevettes en sauce et brocolis;ALL;Soir;72;Admin
+Nuggets de poulet, avocat, salade, tomate;ALL;Midi;73;Admin
+Courgette carbonara;ALL;Soir;74;Admin
+Pizza sauce tomate, olive, chèvre et champignon;ALL;Soir;75;Admin
+Pizza feta et épinards;ALL;Soir;76;Admin
+Pizza merguez, oignon, poivron, emmental et œuf;ALL;Soir;77;Admin
+Raclette : charcuterie, fromage et salade;ALL;Soir;78;Admin
+Sandwich au thon (pain de mozzarella);ALL;Midi;79;Admin
+Sandwich chaud de bolognaise (pain de mozzarella);ALL;Soir;80;Admin
+Sandwich au jambon, tomate, emmental (pain de mozzarella);ALL;Midi;81;Admin
+Sandwich au jambon sec, feta, roquette (pain de mozzarella);ALL;Midi;82;Admin
+Pancake, œuf au plat, bacon, salade;ALL;Midi;83;Admin
+Omlette au champignon;ALL;Midi;84;Admin
+Saumon, épinard à la crème;ALL;Soir;85;Admin
+Crabe, salade, mayonnaise, avocat;ALL;Midi;86;Admin
+Endive, radis, comté, jambon sec, salade;ALL;Midi;87;Admin
