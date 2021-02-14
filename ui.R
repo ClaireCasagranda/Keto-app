@@ -2,7 +2,7 @@ package <- c("shiny", "shinydashboard", "rgdal", "leaflet", "yaml",'dygraphs',"g
              'xts','ggplot2','plyr','scales','grid','googleVis','DT','dplyr','shinyBS',
              "plotly","shinyjs","sp","tidyr","lubridate","magrittr","ggmap","xts",
              "jsonlite","urltools","utils","rvest","rgeos","xml2","selectr",
-             "raster","purrr","RColorBrewer","padr")
+             "raster","purrr","RColorBrewer","padr","rmarkdown")
 new.packages <- package[!(package %in% installed.packages()[,"Package"])]
 if (length(new.packages)) install.packages(new.packages, repos="http://cran.rstudio.com/")
 lapply(package, require, character.only = T)
