@@ -1,3 +1,5 @@
+Sys.setlocale("LC_ALL", "fr_FR.UTF-8")
+options(encoding="UTF-8")
 package <- c("shiny", "shinydashboard", "rgdal", "yaml",'dygraphs',"gridExtra","stringr",
              'xts','ggplot2','plyr','scales','grid','googleVis','DT','dplyr','shinyBS',
              "plotly","shinyjs","sp","tidyr","lubridate","magrittr","ggmap","xts",
