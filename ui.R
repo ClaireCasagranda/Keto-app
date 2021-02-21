@@ -1,4 +1,4 @@
-package <- c("shiny", "shinydashboard", "rgdal", "leaflet", "yaml",'dygraphs',"gridExtra","stringr",
+package <- c("shiny", "shinydashboard", "rgdal", "yaml",'dygraphs',"gridExtra","stringr",
              'xts','ggplot2','plyr','scales','grid','googleVis','DT','dplyr','shinyBS',
              "plotly","shinyjs","sp","tidyr","lubridate","magrittr","ggmap","xts",
              "jsonlite","urltools","utils","rvest","rgeos","xml2","selectr",
@@ -6,8 +6,8 @@ package <- c("shiny", "shinydashboard", "rgdal", "leaflet", "yaml",'dygraphs',"g
 new.packages <- package[!(package %in% installed.packages()[,"Package"])]
 if (length(new.packages)) install.packages(new.packages, repos="http://cran.rstudio.com/")
 lapply(package, require, character.only = T)
-jour_sem <- c("Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche")
-BDD_menu <- read.csv2("Data/Repas.csv", stringsAsFactors = F)
+jour_sem <<- c("Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche")
+BDD_menu <<- read.csv2("Data/Repas.csv", stringsAsFactors = F)
 
 
 shinyUI(navbarPage(title = span("C&L Cuisine ",style = "font-family: 'Impact'"),
