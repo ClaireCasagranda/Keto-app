@@ -9,7 +9,9 @@ new.packages <- package[!(package %in% installed.packages()[,"Package"])]
 if (length(new.packages)) install.packages(new.packages, repos="http://cran.rstudio.com/")
 lapply(package, require, character.only = T)
 jour_sem <<- c("Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche")
-BDD_menu <<- read.csv2("Data/Repas.csv", stringsAsFactors = F, sep=';')
+BDD_menu <<- read.table("Data/Repas.csv", stringsAsFactors = F, sep=';')
+print(nrow(BDD_menu))
+print(head(BDD_menu))
 
 
 shinyUI(navbarPage(title = span("C&L Cuisine ",style = "font-family: 'Impact'"),
