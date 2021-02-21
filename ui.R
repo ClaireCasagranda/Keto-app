@@ -13,7 +13,8 @@ lapply(package, require, character.only = T)
 # BDD_menu <<- read.table("Data/Repas.csv", stringsAsFactors = F, sep=';', header = TRUE, fill = TRUE)
 # save.image(file = "Data/Data.RData")
 load("Data/Data.RData")
-
+jour_sem <<- jour_sem
+BDD_menu <<- BDD_menu
 
 shinyUI(navbarPage(title = span("C&L Cuisine ",style = "font-family: 'Impact'"),
                    theme = "style/style.css",
