@@ -1,88 +1,88 @@
-Nom;Saison;Repas;Identifiant;Auteur
-Carpaccio, salade et mozzarella ;ALL;Midi;1;Admin
-Tacos de fromage, viande hachee et sauce tomate;ALL;Soir;2;Admin
-Poulet, bleu, endive et olive;ALL;Midi;3;Admin
-Chou frisÈ, thon, mayonnaise, endive et mozzarella;ALL;Midi;4;Admin
-Carotte rapÈe, thon, mayonnaise, endive, mozzarella;ALL;Midi;5;Admin
-Gratin de brocolis, courge et rÙti de búuf;ALL;Soir;6;Admin
-Camembert rÙti, charcuterie et concombre;ALL;Soir;7;Admin
-Frites de patates douces, steak hachÈ au chËvre;ALL;Soir;8;Admin
-Pilons de poulet, chou fleur;ALL;Soir;9;Admin
-Pilons de poulet, patates douces;ALL;Soir;10;Admin
-Bologniaise de courgette;ALL;Soir;11;Admin
-Burger cÈtogËne;ALL;Soir;12;Admin
-Brochette de poulet, poivron et oignon;ALL;Soir;13;Admin
-Bavette ‡ l'Èchalotte, poireaux;ALL;Soir;14;Admin
-Cordon bleu, spaghetti de courgettes au pesto;ALL;Soir;15;Admin
-Croque monsieur cÈtogËne;ALL;Soir;16;Admin
-Cabillaud croute de chorizo, poivron et oignon;ALL;Soir;17;Admin
-CrÍpe au thon, tomate et salade;ALL;Midi;18;Admin
-Cheesecake de courgettes, saucisses;ALL;Soir;19;Admin
-Cake au bleu, salade;ALL;Midi;20;Admin
-Flan feta et jambon, salade;ALL;Midi;21;Admin
-Fondue de poireaux, viande rouge;ALL;Soir;22;Admin
-Hot dog, salade;ALL;Soir;23;Admin
-Galette ! åuf, jambon et fromage;ALL;Midi;24;Admin
-Lomo, haricots verts, sauce roquefort;ALL;Soir;25;Admin
-Muffins au thon, salade, feta;ALL;Midi;26;Admin
-åuf rÙti au chorizo;ALL;Soir;27;Admin
-P‚tes cÈtogËnes, poulet, pesto, parmesan;ALL;Soir;28;Admin
-Pizza tomate et gorgonzola;ALL;Soir;29;Admin
-Pizza chËvre, tomate et jambon;ALL;Soir;30;Admin
-Pain grillÈ ‡ l'ail, charcuterie;ALL;Soir;31;Admin
-Pizza viande hachÈe, tomate, poivron, emmental;ALL;Soir;32;Admin
-Pain de viande, haricots verts;ALL;Soir;33;Admin
-Pizza poulet, asperge et mozzarella;ALL;Soir;34;Admin
-Pizza 4 fromages;ALL;Soir;35;Admin
-Poivrons farcis au chËvre et viande hachÈe;ALL;Soir;36;Admin
-Risotto de chou-fleur, lard et parmesan;ALL;Soir;37;Admin
-Endive, gorgonzola, pesto et noix;ALL;Midi;38;Admin
-Salade, saucisses, feta, úuf dur, concombre;ALL;Midi;39;Admin
-Concombre, tomates cerises, úufs durs, thon, endive et oignon;ALL;Midi;40;Admin
-Salade, noix, tomate, concombre, emmetal, bacon et úuf dur;ALL;Midi;41;Admin
-Sushi de chou fleur, saumon, crevette et avocat;ALL;Soir;42;Admin
-Salade, concombre, úuf dur, feta, jambon sec, tomates cerises;ALL;Midi;43;Admin
-Concombre, poulet, avocat, Èchalote, yaourt grecque, bacon;ALL;Midi;44;Admin
-Tarte au maroilles;ALL;Soir;45;Admin
-Salade, saumon, avocat, Èchalotte;ALL;Midi;46;Admin
-Chou frisÈ, jambon sec, parmesan olive;ALL;Midi;47;Admin
-Epinard frais en salade, crevette, concombre et tomates cerises;ALL;Midi;48;Admin
-Búuf marinÈe, úuf dur, salade, tomates cerises;ALL;Midi;49;Admin
-Concombre, thon, avocat, citron;ALL;Midi;50;Admin
-Asperge, bacon, úufs durs;ALL;Midi;51;Admin
-Olives noires, feta, poulet, salade, tomate;ALL;Midi;52;Admin
-Tomate, mozzarella, jambon sec, olives vertes;ALL;Midi;53;Admin
-Salade, concombre, oignon, tomate et boulettes de viande;ALL;Midi;54;Admin
-Viande rouge, champignons ‡ la crËme;ALL;Soir;55;Admin
-Cote de porc, champignons ‡ la crËme;ALL;Soir;56;Admin
-Soupe;ALL;Soir;57;Admin
-Omelette au fromage;ALL;Midi;58;Admin
-Omlette jambon fromage;ALL;Midi;59;Admin
-Courgettes gratinÈes comme une pizza;ALL;Soir;60;Admin
-Barbecue (viande, poivron tomate et oignon ‡ griller);ALL;Soir;61;Admin
-Tartare de viande, Èchalotte, salade;ALL;Midi;62;Admin
-Saucisses et chou fleur;ALL;Soir;63;Admin
-Asperges et pavÈ de saumon;ALL;Soir;64;Admin
-Asperges et colin ;ALL;Soir;65;Admin
-Poulet rÙti, brocolis;ALL;Soir;66;Admin
-Hachis parmentier (chou-fleur);ALL;Soir;67;Admin
-Boulette de viande en sauce et chou-fleur;ALL;Soir;68;Admin
-Boulette de viande en sauce et haricots verts;ALL;Soir;69;Admin
-Boulette de viande en sauce et courgettes;ALL;Soir;70;Admin
-Escalope de poulet ‡ la crËme, oignon, parmesan , pesto et olives vertes;ALL;Soir;71;Admin
-Riz de chou-fleur, crevettes en sauce et brocolis;ALL;Soir;72;Admin
-Nuggets de poulet, avocat, salade, tomate;ALL;Midi;73;Admin
-Courgette carbonara;ALL;Soir;74;Admin
-Pizza sauce tomate, olive, chËvre et champignon;ALL;Soir;75;Admin
-Pizza feta et Èpinards;ALL;Soir;76;Admin
-Pizza merguez, oignon, poivron, emmental et úuf;ALL;Soir;77;Admin
-Raclette : charcuterie, fromage et salade;ALL;Soir;78;Admin
-Sandwich au thon (pain de mozzarella);ALL;Midi;79;Admin
-Sandwich chaud de bolognaise (pain de mozzarella);ALL;Soir;80;Admin
-Sandwich au jambon, tomate, emmental (pain de mozzarella);ALL;Midi;81;Admin
-Sandwich au jambon sec, feta, roquette (pain de mozzarella);ALL;Midi;82;Admin
-Pancake, úuf au plat, bacon, salade;ALL;Midi;83;Admin
-Omlette au champignon;ALL;Midi;84;Admin
-Saumon, Èpinard ‡ la crËme;ALL;Soir;85;Admin
-Crabe, salade, mayonnaise, avocat;ALL;Midi;86;Admin
-Endive, radis, comtÈ, jambon sec, salade;ALL;Midi;87;Admin
+Nom;Repas;Identifiant;Auteur;Ete;Automne;Hiver;Printemps
+Carpaccio, salade et mozzarella ;Midi;1;C&L Cuisine;OUI;OUI;OUI;OUI
+Tacos de fromage, viande hach√©e et sauce tomate;Soir;2;C&L Cuisine;OUI;OUI;OUI;OUI
+Poulet, bleu, endive et olive;Midi;3;C&L Cuisine;NON;OUI;OUI;OUI
+Chou rouge, thon, mayonnaise, endive et mozzarella;Midi;4;C&L Cuisine;NON;OUI;OUI;OUI
+Carotte r√¢p√©e, thon, mayonnaise, endive, mozzarella;Midi;5;C&L Cuisine;NON;OUI;NON;OUI
+Gratin de brocolis, courge et r√¥ti de b≈ìuf;Soir;6;C&L Cuisine;NON;OUI;OUI;OUI
+Camembert r√¥ti, charcuterie et concombre;Soir;7;C&L Cuisine;OUI;OUI;OUI;OUI
+Frites de patates douces, steak hach√© au ch√®vre;Soir;8;C&L Cuisine;NON;OUI;OUI;OUI
+Pilons de poulet, chou fleur;Soir;9;C&L Cuisine;OUI;OUI;OUI;OUI
+Pilons de poulet, patates douces;Soir;10;C&L Cuisine;NON;OUI;OUI;OUI
+Bolognaise de courgette;Soir;11;C&L Cuisine;OUI;OUI;OUI;OUI
+Burger c√©tog√®ne;Soir;12;C&L Cuisine;OUI;OUI;OUI;OUI
+Brochette de poulet, poivron et oignon;Soir;13;C&L Cuisine;OUI;OUI;OUI;OUI
+Bavette √† l'√©chalote, poireaux;Soir;14;C&L Cuisine;OUI;OUI;OUI;OUI
+Cordon bleu, spaghetti de courgettes au pesto;Soir;15;C&L Cuisine;OUI;OUI;OUI;OUI
+Croque monsieur c√©tog√®ne;Soir;16;C&L Cuisine;OUI;OUI;OUI;OUI
+Cabillaud cro√ªte de chorizo, poivron et oignon;Soir;17;C&L Cuisine;OUI;OUI;OUI;OUI
+Cr√™pe au thon, tomate et salade;Midi;18;C&L Cuisine;OUI;OUI;OUI;OUI
+Cheesecake de courgettes, saucisses;Soir;19;C&L Cuisine;OUI;OUI;OUI;OUI
+Cake au bleu, salade;Midi;20;C&L Cuisine;OUI;OUI;OUI;OUI
+Flan feta et jambon, salade;Midi;21;C&L Cuisine;OUI;OUI;OUI;OUI
+Fondue de poireaux, viande rouge;Soir;22;C&L Cuisine;OUI;OUI;OUI;OUI
+Hot dog, salade;Soir;23;C&L Cuisine;OUI;OUI;OUI;OUI
+Galette ! Oeuf, jambon et fromage;Midi;24;C&L Cuisine;OUI;OUI;OUI;OUI
+Lomo, haricots verts, sauce roquefort;Soir;25;C&L Cuisine;OUI;OUI;OUI;OUI
+Muffins au thon, salade, feta;Midi;26;C&L Cuisine;OUI;OUI;OUI;OUI
+Oeuf r√¥ti au chorizo;Soir;27;C&L Cuisine;OUI;OUI;OUI;OUI
+P√¢tes c√©tog√®nes, poulet, pesto, parmesan;Soir;28;C&L Cuisine;OUI;OUI;OUI;OUI
+Pizza tomate et gorgonzola;Soir;29;C&L Cuisine;OUI;OUI;OUI;OUI
+Pizza ch√®vre, tomate et jambon;Soir;30;C&L Cuisine;OUI;OUI;OUI;OUI
+Pain grill√© √† l'ail, salade, charcuterie;Soir;31;C&L Cuisine;OUI;OUI;OUI;OUI
+Pizza viande hach√©e, tomate, poivron, emmental;Soir;32;C&L Cuisine;OUI;OUI;OUI;OUI
+Pain de viande, haricots verts;Soir;33;C&L Cuisine;OUI;OUI;OUI;OUI
+Pizza poulet, asperge et mozzarella;Soir;34;C&L Cuisine;OUI;OUI;OUI;OUI
+Pizza 4 fromages;Soir;35;C&L Cuisine;OUI;OUI;OUI;OUI
+Poivrons farcis au ch√®vre et viande hach√©e;Soir;36;C&L Cuisine;OUI;OUI;OUI;OUI
+Risotto de chou-fleur, lard et parmesan;Soir;37;C&L Cuisine;OUI;OUI;OUI;OUI
+Endive, gorgonzola, pesto et noix;Midi;38;C&L Cuisine;NON;OUI;OUI;OUI
+Salade, saucisses, feta, oeuf dur, concombre;Midi;39;C&L Cuisine;OUI;OUI;OUI;OUI
+Concombre, tomates cerises, oeufs durs, thon, endive et oignon;Midi;40;C&L Cuisine;NON;OUI;OUI;OUI
+Salade, noix, tomate, concombre, emmental, bacon et oeuf dur;Midi;41;C&L Cuisine;OUI;OUI;OUI;OUI
+Sushi de chou fleur, saumon, crevette et avocat;Soir;42;C&L Cuisine;NON;OUI;OUI;OUI
+Salade, concombre, oeuf dur, feta, jambon sec, tomates cerises;Midi;43;C&L Cuisine;OUI;OUI;OUI;OUI
+Concombre, poulet, avocat, √©chalote, yaourt grecque, bacon;Midi;44;C&L Cuisine;OUI;OUI;OUI;OUI
+Tarte au maroilles;Soir;45;C&L Cuisine;OUI;OUI;OUI;OUI
+Salade, saumon, avocat, √©chalote;Midi;46;C&L Cuisine;OUI;OUI;OUI;OUI
+Chou fris√©, jambon sec, parmesan olive;Midi;47;C&L Cuisine;OUI;OUI;OUI;OUI
+Epinard frais en salade, crevette, concombre et tomates cerises;Midi;48;C&L Cuisine;OUI;OUI;OUI;OUI
+Boeuf marin√©, ≈ìuf dur, salade, tomates cerises;Midi;49;C&L Cuisine;OUI;OUI;OUI;OUI
+Concombre, thon, avocat, citron;Midi;50;C&L Cuisine;NON;OUI;OUI;OUI
+Asperge, bacon, ≈ìufs durs;Midi;51;C&L Cuisine;OUI;OUI;OUI;OUI
+Olives noires, feta, poulet, salade, tomate;Midi;52;C&L Cuisine;OUI;OUI;OUI;OUI
+Tomate, mozzarella, jambon sec, olives vertes;Midi;53;C&L Cuisine;OUI;OUI;OUI;OUI
+Salade, concombre, oignon, tomate et boulettes de viande;Midi;54;C&L Cuisine;OUI;OUI;OUI;OUI
+Viande rouge, champignons √† la cr√®me;Soir;55;C&L Cuisine;OUI;OUI;OUI;OUI
+Cote de porc, champignons √† la cr√®me;Soir;56;C&L Cuisine;OUI;OUI;OUI;OUI
+Soupe;Soir;57;C&L Cuisine;OUI;OUI;OUI;OUI
+Omelette au fromage;Midi;58;C&L Cuisine;OUI;OUI;OUI;OUI
+Omette jambon fromage;Midi;59;C&L Cuisine;OUI;OUI;OUI;OUI
+Courgettes gratin√©es comme une pizza;Soir;60;C&L Cuisine;OUI;OUI;OUI;OUI
+Barbecue (viande, poivron tomate et oignon √† griller);Soir;61;C&L Cuisine;OUI;OUI;OUI;OUI
+Tartare de viande, √©chalote, salade;Midi;62;C&L Cuisine;OUI;OUI;OUI;OUI
+Saucisses et chou fleur;Soir;63;C&L Cuisine;OUI;OUI;OUI;OUI
+Asperges et pav√© de saumon;Soir;64;C&L Cuisine;OUI;OUI;OUI;OUI
+Asperges et colin ;Soir;65;C&L Cuisine;OUI;OUI;OUI;OUI
+Poulet r√¥ti, brocolis;Soir;66;C&L Cuisine;OUI;OUI;OUI;OUI
+Hachis parmentier (chou-fleur);Soir;67;C&L Cuisine;OUI;OUI;OUI;OUI
+Boulette de viande en sauce et chou-fleur;Soir;68;C&L Cuisine;OUI;OUI;OUI;OUI
+Boulette de viande en sauce et haricots verts;Soir;69;C&L Cuisine;OUI;OUI;OUI;OUI
+Boulette de viande en sauce et courgettes;Soir;70;C&L Cuisine;OUI;OUI;OUI;OUI
+Escalope de poulet √† la cr√®me, oignon, parmesan , pesto et olives vertes;Soir;71;C&L Cuisine;OUI;OUI;OUI;OUI
+Riz de chou-fleur, crevettes en sauce et brocolis;Soir;72;C&L Cuisine;OUI;OUI;OUI;OUI
+Nuggets de poulet, avocat, salade, tomate;Midi;73;C&L Cuisine;NON;OUI;OUI;OUI
+Courgette carbonara;Soir;74;C&L Cuisine;OUI;OUI;OUI;OUI
+Pizza sauce tomate, olive, ch√®vre et champignon;Soir;75;C&L Cuisine;OUI;OUI;OUI;OUI
+Pizza feta et √©pinards;Soir;76;C&L Cuisine;OUI;OUI;OUI;OUI
+Pizza merguez, oignon, poivron, emmental et oeuf;Soir;77;C&L Cuisine;OUI;OUI;OUI;OUI
+Raclette : charcuterie, fromage et salade;Soir;78;C&L Cuisine;OUI;OUI;OUI;OUI
+Sandwich au thon (pain de mozzarella);Midi;79;C&L Cuisine;OUI;OUI;OUI;OUI
+Sandwich chaud de bolognaise (pain de mozzarella);Soir;80;C&L Cuisine;OUI;OUI;OUI;OUI
+Sandwich au jambon, tomate, emmental (pain de mozzarella);Midi;81;C&L Cuisine;OUI;OUI;OUI;OUI
+Sandwich au jambon sec, feta, roquette (pain de mozzarella);Midi;82;C&L Cuisine;OUI;OUI;OUI;OUI
+Pancake, ≈ìuf au plat, bacon, salade;Midi;83;C&L Cuisine;OUI;OUI;OUI;OUI
+Omelette au champignon;Midi;84;C&L Cuisine;OUI;OUI;OUI;OUI
+Saumon, √©pinard √† la cr√®me;Soir;85;C&L Cuisine;OUI;OUI;OUI;OUI
+Crabe, salade, mayonnaise, avocat;Midi;86;C&L Cuisine;NON;OUI;OUI;OUI
+Endive, radis, comt√©, jambon sec, salade;Midi;87;C&L Cuisine;NON;OUI;OUI;OUI

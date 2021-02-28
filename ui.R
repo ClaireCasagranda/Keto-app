@@ -10,13 +10,13 @@ if (length(new.packages)) install.packages(new.packages, repos="http://cran.rstu
 lapply(package, require, character.only = T)
 # #SAVE
 # jour_sem <<- c("Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche")
-# BDD_menu <<- read.table("Data/Repas.csv", stringsAsFactors = F, sep=';', header = TRUE, fill = TRUE)
+# BDD_menu <<- read.csv2("Data/Repas.csv", stringsAsFactors = F, sep=';', header = TRUE)
 # save.image(file = "Data/Data.RData")
 load("Data/Data.RData")
 jour_sem <<- jour_sem
 BDD_menu <<- BDD_menu
 
-shinyUI(navbarPage(title = span("C&L Cuisine ",style = "font-family: 'Impact'"),
+shinyUI(navbarPage(title = "C&L Cuisine",#span("C&L Cuisine ",style = "font-family: 'Impact'"),
                    theme = "style/style.css",
                    fluid = TRUE, 
                    collapsible = TRUE,
@@ -44,9 +44,10 @@ shinyUI(navbarPage(title = span("C&L Cuisine ",style = "font-family: 'Impact'"),
                                   fluidRow(width=12, 
                                            column(width=2),
                                            column(width=2, numericInput("nb_per", 'Nombre de personnes (en cours...)', 2, min = 1)),
-                                           column(width=2, numericInput("nb_jour", 'Nombre de jours', 7, min = 1, max = 30)),
-                                           column(width=2, selectInput("jour_sem", 'Premier jour',jour_sem)),
-                                           column(width=2, radioButtons("saison",'Prendre en compte la saison (en cours...)',c("Non")))),
+                                           column(width=1, numericInput("nb_jour", 'Nombre de jours', 7, min = 1, max = 30)),
+                                           column(width=1, selectInput("jour_sem", 'Premier jour',jour_sem)),
+                                           column(width=2, selectInput("saison",'Prendre en compte la saison (en cours...)',c("Non","Ete","Automne","Hiver","Printemps"))),
+                                           column(width=2, selectInput("Auteur",'Auteur',choices = c("Tous",unique(BDD_menu$Auteur)),multiple = T,selected = "Tous"))),
                                   fluidRow(width=12,
                                            column(width=2),
                                            column(width=10,
@@ -58,8 +59,22 @@ shinyUI(navbarPage(title = span("C&L Cuisine ",style = "font-family: 'Impact'"),
                                   br(),
                                   br(),
                                   fluidRow(width=12,column(width=2),column(width=8,dataTableOutput('tablemenu'))),
-                                  br(),br()
-                                   )),
+                                  br(),
+                                  fluidRow(width=12,h1("Importer une recette")),
+                                  fluidRow(width=12, 
+                                           column(width=2),
+                                           column(width=8,textInput("nvrecette_text", "Nom de la recette", value = "", width="100%"))),
+                                  fluidRow(width=12, 
+                                           column(width=2),
+                                           column(width=2,radioButtons("nvrecette_midi", "Type de recette :",c("Midi","Soir"))),
+                                           column(width=2,selectInput("nvrecette_saison", "Saisonnalité :",selected = "Tous",
+                                                                      c("Non","Ete","Automne","Hiver","Printemps"), multiple = T)),
+                                           column(width=2,textInput("nvrecette_auteur", "Auteur", value = "Anonyme", width="100%"))),
+                                  fluidRow(width=12, 
+                                           column(width=2),
+                                           column(width=2,actionButton("nvrecette_button", "Ajouter ma recette"))),
+                                  br(),br(),"."
+                                  )),
                    tabPanel(span("Recettes salées",style = "font-family: 'Tahoma'"),
                             fluidRow(width=12, 
                                      column(width=2),

@@ -1,5 +1,5 @@
-shinyServer(function(input, output) {
-    reactData<-reactiveValues(list_ing=NULL,list_quant=NULL,list_unit=NULL,table_menu=NULL)
+shinyServer(function(input, output, session) {
+    reactData<-reactiveValues(list_ing=NULL,list_quant=NULL,list_unit=NULL,table_menu=NULL,nbrecette_add=0)
     
     #IMAGE ACCUEIL
     output$baniere <- renderImage({
@@ -36,10 +36,18 @@ shinyServer(function(input, output) {
     
     # GENERATEUR DE MENU
     output$tablemenu <- renderDataTable({
+        print(paste0("Onglet menu : ",Sys.time()))
         name <- c("Repas",jour_sem[min(which(jour_sem%in%input$jour_sem)):7],rep(jour_sem,100))[0:(input$nb_jour+1)]
         tmp <- data.frame(matrix(ncol = (length(name)), nrow = 2))
         colnames(tmp) <- name
         tmp$Repas <- c('Midi','Soir')
+        if(!input$saison%in%"Non"){
+            if(input$saison%in%"Ete"){BDD_menu<-BDD_menu[BDD_menu$Ete%in%"OUI",]}
+            if(input$saison%in%"Automne"){BDD_menu<-BDD_menu[BDD_menu$Automne%in%"OUI",]}
+            if(input$saison%in%"Hiver"){BDD_menu<-BDD_menu[BDD_menu$Hiver%in%"OUI",]}
+            if(input$saison%in%"Printemps"){BDD_menu<-BDD_menu[BDD_menu$Printemps%in%"OUI",]}}
+        if(!input$Auteur%in%"Tous"){
+            BDD_menu<-BDD_menu[BDD_menu$Auteur%in%input$Auteur,]}
         for(i in 1:input$nb_jour){
             tmp[1,(i+1)] <- sample(BDD_menu$Nom[BDD_menu$Repas%in%"Midi"],1)
             tmp[2,(i+1)] <- sample(BDD_menu$Nom[BDD_menu$Repas%in%"Soir"],1)}
@@ -48,11 +56,19 @@ shinyServer(function(input, output) {
     
     #GENERATION AGAIN
     observeEvent(input$gen_men, {
+        print(paste0("Regen menu : ",Sys.time()))
         output$tablemenu <- renderDataTable({
             name <- c("Repas",jour_sem[min(which(jour_sem%in%input$jour_sem)):7],rep(jour_sem,100))[0:(input$nb_jour+1)]
             tmp <- data.frame(matrix(ncol = (length(name)), nrow = 2))
             colnames(tmp) <- name
             tmp$Repas <- c('Midi','Soir')
+            if(!input$saison%in%"Non"){
+                if(input$saison%in%"Ete"){BDD_menu<-BDD_menu[BDD_menu$Ete%in%"OUI",]}
+                if(input$saison%in%"Automne"){BDD_menu<-BDD_menu[BDD_menu$Automne%in%"OUI",]}
+                if(input$saison%in%"Hiver"){BDD_menu<-BDD_menu[BDD_menu$Hiver%in%"OUI",]}
+                if(input$saison%in%"Printemps"){BDD_menu<-BDD_menu[BDD_menu$Printemps%in%"OUI",]}}
+            if(!input$Auteur%in%"Tous"){
+                BDD_menu<-BDD_menu[BDD_menu$Auteur%in%input$Auteur,]}
             for(i in 1:input$nb_jour){
                 tmp[1,(i+1)] <- str_wrap(sample(BDD_menu$Nom[BDD_menu$Repas%in%"Midi"],1),15)
                 tmp[2,(i+1)] <- str_wrap(sample(BDD_menu$Nom[BDD_menu$Repas%in%"Soir"],1),15)}
@@ -71,6 +87,35 @@ shinyServer(function(input, output) {
             jpeg(file=file,width = 1400) 
             grid.draw(tableGrob(tmp,theme=ttheme_minimal()))
             dev.off()})
+    
+    #AJOUT RECETTES
+    observeEvent(input$nvrecette_button, {
+        print(paste0("Ajout menu : ",Sys.time()))
+        tmp <- BDD_menu[1,]
+        tmp$Nom <- input$nvrecette_text
+        tmp$Repas <- input$nvrecette_midi
+        tmp$Identifiant <- nrow(BDD_menu)+1
+        print(input$nvrecette_auteur)
+        tmp$Auteur <- ifelse(""%in%input$nvrecette_auteur,"Anonyme",input$nvrecette_auteur)
+        if("Non"%in%input$nvrecette_saison){
+            tmp$Ete <- "OUI"
+            tmp$Automne <- "OUI"
+            tmp$Hiver <- "OUI"
+            tmp$Printemps <- "OUI"
+        }else{
+            tmp$Ete <- ifelse("Ete"%in%input$nvrecette_saison,"OUI","NON")
+            tmp$Automne <- ifelse("Automne"%in%input$nvrecette_saison,"OUI","NON")
+            tmp$Hiver <- ifelse("Hiver"%in%input$nvrecette_saison,"OUI","NON")
+            tmp$Printemps <- ifelse("Printemps"%in%input$nvrecette_saison,"OUI","NON")}
+        print(tmp)
+        BDD_menu <<- rbind(BDD_menu, tmp)
+        save.image(file = "Data/Data.RData")
+        reactData$nbrecette_add<-reactData$nbrecette_add+1
+    })
+    
+    #MAJ AUTEUR
+    observeEvent(reactData$nbrecette_add, {
+        updateSelectInput(session, "Auteur",'Auteur',choices = c("Tous",unique(BDD_menu$Auteur)), selected = "Tous")})
     
     #BOISSON 1
     output$B1tmp <- renderImage({
