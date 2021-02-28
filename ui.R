@@ -67,7 +67,7 @@ shinyUI(navbarPage(title = "C&L Cuisine",#span("C&L Cuisine ",style = "font-fami
                                   fluidRow(width=12, 
                                            column(width=2),
                                            column(width=2,radioButtons("nvrecette_midi", "Type de recette :",c("Midi","Soir"))),
-                                           column(width=2,selectInput("nvrecette_saison", "Saisonnalité :",selected = "Tous",
+                                           column(width=2,selectInput("nvrecette_saison", "Saisonnalité :",selected = "Non",
                                                                       c("Non","Ete","Automne","Hiver","Printemps"), multiple = T)),
                                            column(width=2,textInput("nvrecette_auteur", "Auteur", value = "Anonyme", width="100%"))),
                                   fluidRow(width=12, 
